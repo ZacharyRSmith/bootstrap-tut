@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-tut",
+  "version": "1.0.0",
+  "description": "For following a bootstrap tut.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacharyRSmith/bootstrap-tut.git"
+  },
+  "author": "@ZacharyRSmith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZacharyRSmith/bootstrap-tut/issues"
+  },
+  "homepage": "https://github.com/ZacharyRSmith/bootstrap-tut#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
