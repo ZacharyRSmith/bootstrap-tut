@@ -95,3 +95,17 @@ article p {
     margin-top: 20px;
   }
 }
+@media (min-width: 768px) {
+  .container-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-sm-height {
+    display: table-row;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+  }
+}
