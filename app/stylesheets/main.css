@@ -1,26 +1,36 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
 }
-
-/* NAVBAR */
-.navbar {
-  margin-bottom: 0px;
-}
-.navbar-inverse .navbar-nav > li > a {
-    color: #bbb;
-}
-
 footer {
   background-color: #333;
   color: #ddd;
   padding: 20px;
   text-align: center;
 }
-
 aside {
   background-color: #f7f7f7;
   text-align: center;
   padding-top: 40px;
+}
+
+/* NAVBAR */
+.navbar {
+  margin-bottom: 0px;
+  padding: 30px 15px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #bbb;
+}
+.navbar img {
+  color: #bbb;
+  height: 70%;
+  width: 70%;
+}
+.navbar-right {
+}
+.cbp-af-header-shrink {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* RANGE LIST */
