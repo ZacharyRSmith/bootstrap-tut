@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 80px;
 }
 footer {
   background-color: #333;
@@ -17,6 +18,13 @@ aside {
 .navbar {
   margin-bottom: 0px;
   padding: 30px 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    position: absolute; /* prevent logo from pushing navbar-right down */
+  }
 }
 .navbar-inverse .navbar-nav > li > a {
     color: #bbb;
@@ -31,6 +39,7 @@ aside {
 .cbp-af-header-shrink {
   padding-top: 5px;
   padding-bottom: 5px;
+  opacity: 0.9;
 }
 
 /* RANGE LIST */
@@ -93,6 +102,7 @@ article p {
 .sports-list-top a {
   margin-left: 30px;
   margin-right: 30px;
+  padding-top: 60px;
   display: inline-block;
 }
 
