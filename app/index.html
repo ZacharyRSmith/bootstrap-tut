@@ -48,41 +48,8 @@
     </header>
 
     <div class="container-fluid">
-      <div class="row visible-md">
-        <div class="sports-icon-list sports-list-top">
-          <div>
-            <a href="./downhill.html">
-              <img src="./images/icon-snowboard.png" alt="Icon of a snowboard." />
-              <h6>Downhill</h6>
-            </a>
-
-            <a href="./downhill.html">
-              <img src="./images/icon-snowboard.png" alt="Icon of a snowboard." />
-              <h6>Downhill</h6>
-            </a>
-
-            <a href="./downhill.html">
-              <img src="./images/icon-snowboard.png" alt="Icon of a snowboard." />
-              <h6>Downhill</h6>
-            </a>
-
-            <a href="./downhill.html">
-              <img src="./images/icon-snowboard.png" alt="Icon of a snowboard." />
-              <h6>Downhill</h6>
-            </a>
-
-            <a href="./downhill.html">
-              <img src="./images/icon-snowboard.png" alt="Icon of a snowboard." />
-              <h6>Downhill</h6>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid container-height">
       <div class="row">
-        <img class="img-responsive" src="./images/lake.jpg" alt="A lake" />
+        <div class="fill-screen" style="background-image: url(./images/lake.jpg)"></div>
       </div>
     </div>
 
@@ -94,5 +61,13 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./lib/animated_header/js/classie.js"></script>
     <script src="./lib/animated_header/js/cbpAnimatedHeader.js"></script>
+
+    <script>
+      $(function () {
+        $(window).on("load resize", function () {
+          $(".fill-screen").css("height", window.innerHeight);
+        });
+      });
+    </script>
   </body>
 </html>

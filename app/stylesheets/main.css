@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 footer {
   background-color: #333;
@@ -12,6 +12,11 @@ aside {
   background-color: #f7f7f7;
   text-align: center;
   padding-top: 40px;
+}
+
+.fill-screen {
+  background-size: cover;
+  background-position: center;
 }
 
 /* NAVBAR */
