@@ -21,20 +21,20 @@ aside {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-@media (min-width: 768px) {
+@media (max-width: 400px) {
   .navbar-header {
-    position: absolute; /* prevent logo from pushing navbar-right down */
+    position: relative;
+  }
+  .navbar img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
   }
 }
 .navbar-inverse .navbar-nav > li > a {
     color: #bbb;
-}
-.navbar img {
-  color: #bbb;
-  height: 70%;
-  width: 70%;
-}
-.navbar-right {
 }
 .cbp-af-header-shrink {
   padding-top: 5px;
