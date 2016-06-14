@@ -48,26 +48,50 @@
     </header>
 
     <div class="container-fluid">
-      <div class="row">
+      <section class="row">
         <div class="fill-screen" style="background-image: url(./images/lake.jpg)"></div>
-      </div>
+      </section>
 
-      <div class="row content-filler">
-      </div>
+      <section class="row text-banner">
+        <h1>VISIT THE ROCKY MOUNTAINTS</h1>
+        <p>Lori ate some...</p>
+      </section>
 
-      <div class="row">
+      <section class="row">
         <div class="fill-screen fixed-attachment" style="background-image: url(./images/elk.jpg)"></div>
-      </div>
+      </section>
 
-      <div class="row content-filler">
-      </div>
+      <section class="row activity-section">
+        <div class="activity-element col-md-4">
+          <img src="./images/bikes.png" alt="Bikes">
+          <h2>Orienteering</h2>
+          <p>Lori ate some...</p>
+        </div>
 
-      <div class="row">
+        <div class="activity-element col-md-4">
+          <img src="./images/chess.png" alt="Chess">
+          <h2>Orienteering</h2>
+          <p>Lori ate some...</p>
+        </div>
+
+        <div class="activity-element col-md-4">
+          <img src="./images/elk.jpg" alt="Elk">
+          <h2>Orienteering</h2>
+          <p>Lori ate some...</p>
+        </div>
+      </section>
+
+      <section class="row">
         <div class="fill-screen fixed-attachment" style="background-image: url(./images/snowboarder.jpg)"></div>
-      </div>
+      </section>
 
-      <div class="row content-filler">
-      </div>
+      <section class="row contact-section">
+        <h2>Contact Us</h2>
+        <p>Zachary Smith</p>
+        <p>402 Deer Run Lane</p>
+        <p>Rockmart, GA</p>
+        <p>30153</p>
+      </section>
     </div>
 
     <footer class="container-fluid">
@@ -79,12 +103,6 @@
     <script src="./lib/animated_header/js/classie.js"></script>
     <script src="./lib/animated_header/js/cbpAnimatedHeader.js"></script>
 
-    <script>
-      $(function () {
-        $(window).on("load resize", function () {
-          $(".fill-screen").css("height", window.innerHeight);
-        });
-      });
-    </script>
+    <script src="./scripts/scrolling.js"></script>
   </body>
 </html>
