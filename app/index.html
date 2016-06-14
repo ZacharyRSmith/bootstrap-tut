@@ -21,7 +21,7 @@
     <![endif]-->
   </head>
   <body>
-    <header>
+    <header id="home">
       <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -39,6 +39,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home">Home</a></li>
               <li><a href="#sights">Sights</a></li>
               <li><a href="#sports">Sports</a></li>
               <li><a href="#activities">Activities</a></li>
@@ -55,23 +56,23 @@
           <img class="img-responsive title-image" src="./images/site-logo-white.png" alt="Logo">
 
           <div class="down-button">
-            <a class="btn">
+            <a class="btn" href="#sights">
               <i class="fa fa-arrow-circle-down fa-4x"></i>
             </a>
           </div>
         </div>
       </section>
 
-      <section class="row text-banner">
+      <section id="sights" class="row text-banner">
         <h1>VISIT THE ROCKY MOUNTAINTS</h1>
         <p>Lori ate some...</p>
       </section>
 
-      <section class="row">
+      <section id="sports" class="row">
         <div class="fill-screen fixed-attachment" style="background-image: url(./images/elk.jpg)"></div>
       </section>
 
-      <section class="row activity-section">
+      <section id="activities" class="row activity-section">
         <div class="activity-element col-md-4">
           <img src="./images/bikes.png" alt="Bikes">
           <h2>Orienteering</h2>
@@ -95,7 +96,7 @@
         <div class="fill-screen fixed-attachment" style="background-image: url(./images/snowboarder.jpg)"></div>
       </section>
 
-      <section class="row contact-section">
+      <section id="contact-us" class="row contact-section">
         <h2>Contact Us</h2>
         <p>Zachary Smith</p>
         <p>402 Deer Run Lane</p>
