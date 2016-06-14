@@ -19,6 +19,18 @@ aside {
   background-position: center;
 }
 
+.down-button {
+  position: absolute;
+  bottom: 40px;
+
+  /* allows us to center */
+  width: 100%;
+  text-align: center;
+}
+.down-button i {
+  color: white;
+}
+
 .title-row {
   position: relative;
   min-height: 300px;
@@ -28,7 +40,7 @@ aside {
   padding: 20px;
   top: 50%;
   left: 50%;
-  /*margin-right: -50%;*/
+  margin-right: -50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
